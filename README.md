@@ -90,9 +90,11 @@ Contributor Covenant Code of Conduct
 ## Resources
 
 1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/stevecalla)
-2. GitHub Repo: [LINK](https://github.com/stevecalla/book-search-engine)
-3. Deployed Site URL - Heroku: [LINK](https://book-search-engine-calla.herokuapp.com/)
-4. Contact: [Email Steve](mailto:callasteven@gmail.com)
+2. GitHub Repo #1 - Deployed: [LINK](https://github.com/stevecalla/book-search-engine-v2)
+3. GitHub Repo #2 - Original: [LINK](https://github.com/stevecalla/book-search-engine)
+    * Note Repo #2 would not deploy to Heroku. After multiple attempts, repo was rebuilt in most recent version of create react as represented by Repo #1 above. Repo #2 includes the vast majority of the development commit information.
+4. Deployed Site URL - Heroku: [LINK](https://book-search-engine-calla.herokuapp.com/)
+5. Contact: [Email Steve](mailto:callasteven@gmail.com)
 
 ## License 
 
