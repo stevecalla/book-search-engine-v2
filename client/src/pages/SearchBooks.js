@@ -52,12 +52,14 @@ const SearchBooks = () => {
         title: book.title,
         description: book.description || "No description available.",
         image:
-          book.imageLinks?.thumbnail ||
+          book.imageLinks?.thumbnail.replace("http:", "https:") ||
           "https://placehold.jp/16/0000FF/ffffff/300x500.png?text=No%20Image%20Available",
         publishedDate: book.publishedDate || "No publish date",
-        previewLink: book.previewLink || "No preview link",
-        infoLink: book.infoLink || "No info link",
+        previewLink: book.previewLink.replace("http:", "https:") || "No preview link",
+        infoLink: book.infoLink.replace("http:", "https:") || "No info link",
       }));
+
+      console.log(bookData);
 
       setSearchedBooks(bookData);
       setSearchInput("");
