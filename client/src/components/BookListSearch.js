@@ -11,7 +11,7 @@ const BookListSearch = ({
   return (
     <>
       <Container>
-        <h2 className="d-flex justify-content-sm-center justify-content-md-start">
+        <h2 className="d-flex justify-content-center text-center">
           {searchedBooks.length
             ? `Viewing ${searchedBooks.length} results:`
             : "Search for a book to begin"}

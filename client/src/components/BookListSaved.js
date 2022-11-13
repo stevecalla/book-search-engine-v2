@@ -6,13 +6,13 @@ const BookListSaved = ({ savedBooks, handleDeleteBook, source }) => {
   return (
     <>
       <Container>
-        <h2 className="d-flex justify-content-sm-center justify-content-md-start">
+        <h2 className="d-flex justify-content-center text-center">
           {Auth.loggedIn() === false
             ? `Your login session has expired. Please signin again`
             : savedBooks.length
             ? `Viewing ${savedBooks.length} saved ${
                 savedBooks.length === 1 ? "book" : "books"
-              }:`
+              }`
             : `You have no saved books!`}
         </h2>
         <Row xs={1} md={2} lg={2} xl={3} className="p-2 g-2">

@@ -96,7 +96,7 @@ const SearchBooks = () => {
     <>
       <Jumbotron fluid className="text-light bg-dark">
         <Container>
-          <h1 className="d-flex justify-content-sm-center justify-content-md-start">Search for Books!</h1>
+          <h1 className="d-flex justify-content-center text-center">Search for Books!</h1>
           <Form onSubmit={handleFormSubmit}>
             <Form.Row>
               <Form.Control
