@@ -77,17 +77,16 @@ const SearchBooks = () => {
     const bookToSave = searchedBooks.find((book) => book.bookId === bookId);
 
     try {
-      const { data } = await addBook({
+      await addBook({
         variables: {
           id: userId,
           ...bookToSave,
         },
       });
 
-      console.log(data); //to eliminate console warning
-
       // if book saves to user's account, save book id to state
       setSavedBookIds([...savedBookIds, bookToSave.bookId]);
+      
     } catch (err) {
       console.error(err);
     }

@@ -42,14 +42,12 @@ const SavedBooks = () => {
   // delete book
   const handleDeleteBook = async (bookId) => {
     try {
-      const { data } = await removeBook({
+      await removeBook({
         variables: {
           id: userId,
           bookId: bookId,
         },
       });
-
-      console.log(data); //to eliminate console warning
 
       removeBookId(bookId);
     } catch (err) {
