@@ -61,20 +61,19 @@ This app includes a variety of API routes (see list below). In addition, the fol
 
 1. `React:` JavaScript transcompiler mainly used to convert ECMAScript 2015+ code into a backwards-compatible version of JavaScript.
 2. `Git/Github:` Repo and version management.
-3. `Heroku Pages:` Deployment.
-4. `Mongo/Mongoose`: Database.
-5. `React-Bootstrap`: For most of the CSS styling.
-6. `Apollo/GraphQL`: For GraphQL database query.
-7. `bcrypt`: To encrypt the user password.
-8. `jsonwebtoken/jwt decoe`: For user authentication and token decoding.
-9. `Heroku`: Deployment.
+3. `Mongo/Mongoose`: Database.
+4. `React-Bootstrap`: For most of the CSS styling.
+5. `Apollo/GraphQL`: For GraphQL database query.
+6. `bcrypt`: To encrypt the user password.
+7. `jsonwebtoken/jwt decoe`: For user authentication and token decoding.
+8. `Heroku`: Deployment.
 ---
 
 ## App Preview - WalkThrough Video
 
 Video #1: Demonstrates all of the content, functional and technical acceptance criteria.
 
-[Link to WalkThrough Video](https://youtu.be/k6Rsua0mPys)
+[Link to WalkThrough Video](https://youtu.be/XXe5NX0E9NM)
 
 ![Build & deploy video](./assets/demo-video.gif)
 
@@ -91,8 +90,8 @@ Contributor Covenant Code of Conduct
 ## Resources
 
 1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/stevecalla)
-2. GitHub Repo: <https://github.com/stevecalla/book-search-engine>
-3. Deployed Site URL - Heroku: [LINK]()
+2. GitHub Repo: [LINK](https://github.com/stevecalla/book-search-engine)
+3. Deployed Site URL - Heroku: [LINK](https://book-search-engine-calla.herokuapp.com/)
 4. Contact: [Email Steve](mailto:callasteven@gmail.com)
 
 ## License 
