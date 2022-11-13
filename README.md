@@ -76,7 +76,7 @@ Video #1: Demonstrates all of the content, functional and technical acceptance c
 
 [Link to WalkThrough Video](https://youtu.be/k6Rsua0mPys)
 
-![Build & deploy video](./src/assets/images/demo-video.gif)
+![Build & deploy video](./assets/demo-video.gif)
 
 ## Tests
 
