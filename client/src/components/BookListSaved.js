@@ -6,7 +6,7 @@ const BookListSaved = ({ savedBooks, handleDeleteBook, source }) => {
   return (
     <>
       <Container>
-        <h2>
+        <h2 className="d-flex justify-content-sm-center justify-content-md-start">
           {Auth.loggedIn() === false
             ? `Your login session has expired. Please signin again`
             : savedBooks.length
