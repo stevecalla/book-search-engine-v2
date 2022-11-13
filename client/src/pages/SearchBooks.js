@@ -107,7 +107,7 @@ const SearchBooks = () => {
                 onChange={(e) => setSearchInput(e.target.value)}
                 type="text"
                 size="lg"
-                placeholder="Search for a book"
+                placeholder="Search by title keywords"
               />
               <Button
                 type="submit"
