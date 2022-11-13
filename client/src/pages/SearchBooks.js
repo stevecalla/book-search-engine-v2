@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Jumbotron, Container, Col, Form, Button } from "react-bootstrap";
+import { Jumbotron, Container, Form, Button } from "react-bootstrap";
 import BookList from "../components/BookListSearch";
 
 import { getUserId } from "../utils/getUserId"; //get user id from jwt token for db queries/mutations

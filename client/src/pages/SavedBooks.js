@@ -3,11 +3,10 @@ import { Jumbotron, Container } from "react-bootstrap";
 import BookList from "../components/BookListSaved";
 import { getUserId } from "../utils/getUserId"; //get user id from jwt token
 import { useQuery } from "@apollo/client";
-import { QUERY_ME, QUERY_TEST } from "../utils/queries";
+import { QUERY_ME } from "../utils/queries";
 import { REMOVE_BOOK } from "../utils/mutations";
 import { useMutation } from "@apollo/client";
 import { removeBookId } from "../utils/localStorage";
-import Auth from "../utils/auth";
 
 const SavedBooks = () => {
   // get userId from jwt token to use in query/mutation
@@ -18,7 +17,7 @@ const SavedBooks = () => {
 
   let savedBooks = [];
   // get all user saved book info to render to page
-  if (Auth.loggedIn()) {
+  // if (Auth.loggedIn()) {
     const { loading, data } = useQuery(QUERY_ME, {
       // variables: { id: '636f2bdf0a1a38271a7e9b8a' },
       variables: { id: userId },
@@ -38,7 +37,7 @@ const SavedBooks = () => {
         );
       }
     }
-  }
+  // }
 
 
   // delete book
