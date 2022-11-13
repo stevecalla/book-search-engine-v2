@@ -45,7 +45,7 @@ class AuthService {
     localStorage.removeItem("id_token");
     // Clear saved books from local storage (if user signs in with a different id)
     // When token expires this happens as well
-    localStorage.removeItem("saved_books");
+    // localStorage.removeItem("saved_books");
     // this will reload the page and reset the state of the application
     window.location.assign("/");
   }
