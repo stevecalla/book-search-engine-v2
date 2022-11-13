@@ -59,8 +59,6 @@ const SearchBooks = () => {
         infoLink: book.infoLink.replace("http:", "https:") || "No info link",
       }));
 
-      console.log(bookData);
-
       setSearchedBooks(bookData);
       setSearchInput("");
     } catch (err) {
