@@ -97,7 +97,7 @@ const SearchBooks = () => {
     <>
       <Jumbotron fluid className="text-light bg-dark">
         <Container>
-          <h1>Search for Books!</h1>
+          <h1 className="d-flex justify-content-sm-center justify-content-md-start">Search for Books!</h1>
           <Form onSubmit={handleFormSubmit}>
             <Form.Row>
               <Form.Control
@@ -119,6 +119,7 @@ const SearchBooks = () => {
                 Search
               </Button>
             </Form.Row>
+            <p className='mt-2 ml-2 small'>* Includes only books with a preview.</p>
           </Form>
         </Container>
       </Jumbotron>
