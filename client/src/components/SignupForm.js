@@ -39,7 +39,6 @@ const SignupForm = () => {
         variables: { ...userFormData },
       });
 
-      console.log(data); //to eliminate the webpack error message
       Auth.login(data.addUser.token);
     } catch (e) {
       console.error(e);
