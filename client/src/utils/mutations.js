@@ -7,6 +7,17 @@ export const LOGIN_USER = gql`
       user {
         _id
         username
+        savedBooks {
+          _id
+          bookId
+          title
+          authors
+          description
+          image
+          infoLink
+          previewLink
+          publishedDate
+        }
       }
     }
   }
