@@ -34,10 +34,12 @@ class AuthService {
   }
 
   login( {token, user} ) {
+    console.log({token, user})
+
     // Saves user token to localStorage
     // localStorage.setItem("id_token", idToken);
     localStorage.setItem("id_token", token);
-    localStorage.setItem("saved_books", JSON.stringify(user.savedBooks.map(element => element.bookId)));
+    user.savedBooks && localStorage.setItem("saved_books", JSON.stringify(user.savedBooks.map(element => element.bookId)));
     // Returns to root url
     window.location.assign("/");
   }
