@@ -12,7 +12,7 @@ const BookListSearch = ({
 }) => {
   const location = useLocation();
   const pathname = useLocation().pathname;
-  console.log({ location }, {pathname});
+  // console.log({ location }, {pathname});
 
   return (
     <>
