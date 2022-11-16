@@ -2,12 +2,18 @@ import React from "react";
 import { Container, Button, Card, Row } from "react-bootstrap";
 import Auth from "../utils/auth";
 
+import { useLocation } from 'react-router-dom';
+
 const BookListSearch = ({
   searchedBooks,
   savedBookIds,
   handleSaveBook,
   source,
 }) => {
+  const location = useLocation();
+  const pathname = useLocation().pathname;
+  console.log({ location }, {pathname});
+
   return (
     <>
       <Container>
