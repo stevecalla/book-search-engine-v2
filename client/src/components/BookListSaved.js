@@ -7,7 +7,7 @@ import { useLocation } from 'react-router-dom';
 const BookListSaved = ({ savedBooks, handleDeleteBook, source }) => {
   const location = useLocation();
   const pathname = useLocation().pathname;
-  console.log({ location }, {pathname});
+  // console.log({ location }, {pathname});
 
   return (
     <>
